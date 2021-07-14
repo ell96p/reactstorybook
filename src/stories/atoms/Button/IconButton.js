@@ -6,9 +6,8 @@ import theme from '../../../theme/MainTheme';
 const ButtonContainer = styled.button`
 padding: 0;
 background-color: ${({
-                                                               color,
-                                                               variant,
-                                                           }) => {
+                       color,
+                       variant}) => {
     if (variant === 'contained') {
         if(color === 'primary') {return theme.color.primary
         }if (color==='secondary'){return theme.color.secondary}

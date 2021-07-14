@@ -15,7 +15,6 @@ background-color: ${({
     } return theme.color.tertiary;
 }};
 color: ${({active}) => (active ? theme.color.active : theme.color.textColor)};
-  display: block;
   border-radius: 20px;
   height: 50px;
   width: 120px;
